@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(216, 142, 142);
+    background-color: rgb(195, 215, 198);
     margin: 0;
     font-family:'Trebuchet MS', Arial, sans-serif;
 }
@@ -30,7 +30,7 @@ header a {
 }
 
 .big-message {
-    background: url("https://images.wallpaperscraft.com/image/single/light_bulbs_garland_light_197737_1280x720.jpg");
+    background: url("https://wallpaperbat.com/img/975850-download-wallpaper-1366x768-mountains-forest-fog-landscape-tablet-laptop-hd-background.jpg");
     color: white;
     min-height: 95vh;
     display: flex;
@@ -54,6 +54,7 @@ header a {
     display: flex;
     gap: 20px;
     font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.244);
 }
 
 .flex-container ul {
@@ -90,15 +91,17 @@ img {
 table {
     width: 80%;
     height: 80%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.244);
     margin-bottom: 50px;
     border: 2px solid black;
-    background-color: rgb(231, 156, 156);
+    background-color: rgb(118, 147, 125);
     border-radius: 20px;
     padding: 10px
+    
 }
 
 th, td {
-    background-color: rgb(244, 175, 175);
+    background-color: rgb(166, 190, 170);
     border: none;
     border-radius: 10px;
     padding: 5px
@@ -122,8 +125,30 @@ hr {
 }
 
 @media (max-width: 600px) {
-    body{
-        font-size: 16px;
-        margin: 10px;
+    .big-message {
+        font-size: 28px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .button-text {
+        font-size: 28px;
+    }
+
+    img {
+        width: 25%;
+        height: auto;
+    }
+
+    table {
+        width: 90%;
+        font-size: 14px;
     }
 }
