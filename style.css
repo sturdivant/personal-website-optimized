@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(216, 142, 142);
+    margin: 0;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 10px 20px;
+    display:flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.5);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.big-message {
+    background: url("https://images.wallpaperscraft.com/image/single/light_bulbs_garland_light_197737_1280x720.jpg");
+    color: white;
+    min-height: 95vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    text-shadow: 4px 4px 6px black;
+    font-size: 45px;
+}
+
+.big-message h1 {
+    max-width: 600px
+}
+
+.flex-container div {
+    flex: 1;
+}
+
+.flex-container {
+    margin-left: 50px;
+    padding: 40px 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.flex-container ul {
+    list-style: square;
+}
+
+.button-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.top {
+    text-decoration: none;
+    color: gray;
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    background-color: rgb(231, 156, 156);
+    border-radius: 20px;
+    padding: 10px
+}
+
+th, td {
+    background-color: rgb(244, 175, 175);
+    border: none;
+    border-radius: 10px;
+    padding: 5px
+}
+
+hr {
+    margin-bottom: 0px;
+    height: 5px;
+    border: none;
+    background-color: black;
+}
+
+.hr-top {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.para {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    body{
+        font-size: 16px;
+        margin: 10px;
+    }
+}
