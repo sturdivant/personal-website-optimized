@@ -112,6 +112,9 @@
 .hr-top {
     margin-top: 0px;
     margin-bottom: 0px;
+    height: 5px;
+    border: none;
+    background-color: black;
 }
 
 .para {
