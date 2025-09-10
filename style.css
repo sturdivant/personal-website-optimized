@@ -151,3 +151,14 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 600px) {
+    .big-message {
+        min-height: 80vh;
+    }
+    
+    .pics {
+        flex-direction: column;
+        width: 100%;
+    }
+}
